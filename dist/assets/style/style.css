@@ -130,9 +130,14 @@ body {
 
 .app {
   background-color: #00ff61 !important;
+  margin-right: 15px;
 }
 .learn button {
   background-color: transparent;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
