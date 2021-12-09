@@ -9,7 +9,6 @@
         <img src="../static/assets/ogs.webp" class="center" alt="" style="margin-top:20px;">
       </div>
     </div>
-    <hr>
     <div class="info">
       <div class="rinfo">
         <img src="../static/assets/rulesfi.webp" class="center" alt="">
@@ -27,35 +26,36 @@
         </ul>
       </div>
     </div>
-    <hr>
+        <div class="info">
+      <div class="linfo">
+        <h1>FAQ</h1>
+        <img src="../static/assets/faq.webp" class="center faq" alt="">
 
-    <div class="faq"><br>
-      <h1>FAQ</h1>
-      <div class="faq">
-        <img src="../static/assets/faq.webp" alt="">
       </div>
-  </div>
-  </div>
+    </div>
+
+
+
+    </div>
 </template>
 
 
 <style>
 
-.faq img {
-  width: 150px !important;margin-top: 50px;}
 
-.faq {text-align: center;}
+.faq {text-align: center;width: 90px !important; float: left;}
 
 .info {
   max-width: 1100px;
   font: lighter;
   max-height: 450px;
-  font-family: sofial !important;
   text-align: left;
-  display: flex;
-  align-items: center;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+.extra {
+
 }
 
 .accord { justify-content: end;}
@@ -71,6 +71,8 @@
 .linfo, .rinfo {
   width: 50%;
   float: left;
+  margin-bottom: 100px;
+
 
   }
 
@@ -101,7 +103,9 @@
 hr{background-color: #ccc;
         border: none; height: 1px;}
 
-
+  .extra {
+    padding-top: 100px;
+  }
 
 
 
