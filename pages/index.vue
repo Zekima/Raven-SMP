@@ -7,12 +7,9 @@
             <h1 class="">Welcome to Raven SMP!
             <h5>A 1.18 Minecraft server</h5>
             <div class="buttons">
-              <a href="ravensmp.net/apply"><button class="app">Applications</button></a>
+              <a href="apply"><button class="app">Applications</button></a>
               <a href="#1"><button class="learn">Learn more</button></a>
             </div>
-
-
-
             </h1>
                 <div class="fe">
                 <div class="card">
