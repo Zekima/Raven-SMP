@@ -3,7 +3,7 @@
     <div class="info" id="1">
       <div class="linfo extra">
         <h1>What is a private server?</h1><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus lectus leo, sed tincidunt dolor iaculis nec. Suspendisse non rutrum mauris, ac lacinia tortor. Sed rhoncus diam et magna viverra gravida. Suspendisse vulputate vel neque id bibendum. Cras in felis facilisis, mattis neque vitae, congue massa. Phasellus ultrices elit ac metus luctus ultrices.</p>
+        <p>A private server allows you to experience Minecraft in the way it was intended. In a public server who knows if your house will still be there the next day.  </p>
       </div>
       <div class="rinfo">
         <img src="../static/assets/ogs.webp" class="center" alt="" style="margin-top:20px;">
@@ -15,56 +15,25 @@
         <img src="../static/assets/rulesfi.webp" class="center" alt="">
       </div>
         <div class="linfo extra">
-        <h1>You will not get banned for nothing</h1><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus lectus leo, sed tincidunt dolor iaculis nec. Suspendisse non rutrum mauris, ac lacinia tortor. Sed rhoncus diam et magna viverra gravida. Suspendisse vulputate vel neque id bibendum. Cras in felis facilisis, mattis neque vitae, congue massa. Phasellus ultrices elit ac metus luctus ultrices.</p>
+        <h1>Server Rules & Restrictions</h1><br>
+        <p>To keep the community safe and civil there are couple rules to follow </p>
+        <br>
+        <ul class="list">
+          <li>Do not be disrespectful!</li>
+          <li>Definitely do not be racist, homophobic, sexist etc!</li>
+          <li>Do not grief.</li>
+          <li>Do not do harmful pranks, e.g fill their house with lava.</li>
+          <li>No hacking!</li>
+        </ul>
       </div>
     </div>
     <hr>
 
-    <div class="info">
+    <div class="faq"><br>
       <h1>FAQ</h1>
       <div class="faq">
-
         <img src="../static/assets/faq.webp" alt="">
-
       </div>
-
-
-
-
-
-              <v-row justify="center" >
-    <v-expansion-panels accordion class="accord">
-      <div style="width:80%;justify-content: flex-end;">
-      <v-expansion-panel>
-        <v-expansion-panel-header>Do you need a license to play on the server?</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-            <v-expansion-panel>
-        <v-expansion-panel-header>What will happen to my things and buildings if I get ripped off?</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-            <v-expansion-panel>
-        <v-expansion-panel-header>Item</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-            <v-expansion-panel>
-        <v-expansion-panel-header>Item</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-      </div>
-    </v-expansion-panels>
-
-
-  </v-row>
   </div>
   </div>
 </template>
@@ -94,7 +63,10 @@
 .hidden {
   display: none;
 }
-
+.list {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
 .linfo, .rinfo {
   width: 50%;
   float: left;
