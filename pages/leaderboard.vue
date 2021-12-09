@@ -7,7 +7,7 @@
       <h5>Advancements complete shown in points</h5>
           <div class="top">
       <div class="lcard" :class="{ 'active': index === 0,  'active2': index === 1, 'active3': index === 2 }"  v-for="(stat,index) in sortedArray" :key="stat.name" >
-        <p>{{ index+1 }}.</p><nuxt-img :src="craft + stat.uuid + '?scale=2'" /><p class="pname">{{ stat.name }}</p>
+        <p>{{ index+1 }}.</p><img :src="craft + stat.uuid + '?scale=2'" /><p class="pname">{{ stat.name }}</p>
         <div class="ppos">
                   <p class="points">{{ stat.points }} Points</p>
         </div>
