@@ -175,6 +175,7 @@ i {
     flex-direction: column;
     align-items: center;
     text-align: center !important;
+    display: flex !important;
     margin-top: 20px !important;
   }
 
@@ -188,9 +189,12 @@ i {
 
   .linfo, .rinfo {
     width: 90% !important;
+    margin: 0 auto !important;
     max-height: 450px !important;
 
   }
+
+
 
   .rinfo img{display: none !important;}
 
@@ -200,7 +204,10 @@ i {
     justify-content: center;
 }
 
+
 hr {display: none;}
+
+
 
 
 }
