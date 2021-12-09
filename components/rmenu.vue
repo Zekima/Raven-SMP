@@ -1,9 +1,9 @@
 <template>
     <div class="menu">
       <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="leaderboard">Leaderboard</nuxt-link>
-      <nuxt-link to="map">Map</nuxt-link>
-      <nuxt-link to="resources">Resources</nuxt-link>
+      <nuxt-link to="/leaderboard">Leaderboard</nuxt-link>
+      <nuxt-link to="/map">Map</nuxt-link>
+      <nuxt-link to="/resources">Resources</nuxt-link>
     </div>
 </template>
 
