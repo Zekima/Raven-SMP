@@ -92,7 +92,7 @@
 
       </div>
     </div>
-  <!-- <rfooter></rfooter> -->
+  <rfooter></rfooter>
   </div>
 </template>
 
@@ -115,6 +115,7 @@
 .content {
 
   max-width: 1100px;
+  height: 61vh;
   margin: 0 auto;
   font-family: sofial;
 }
