@@ -32,7 +32,7 @@
                 </div>
             </div>
           </div>
-          <div class="rhero">
+          <div class="rhero remove">
             <video src="../static/assets/treef.webm" type="video/webm" width="700" class="vid"  autoplay loop muted></video>
           </div>
         </div>

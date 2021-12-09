@@ -88,6 +88,16 @@
             <p>Pre-generates chunks</p>
           </div>
         </div>
+                                <div class="ccard">
+          <div class="cimg">
+            <img src="../static/assets/plasmo.jpg" width="64px">
+          </div>
+          <div class="ctext">
+
+            <h4>Plasmo Voice</h4>
+            <p>Proximity voice сhat for Spigot</p>
+          </div>
+        </div>
         </div>
 
       </div>
@@ -115,9 +125,10 @@
 .content {
 
   max-width: 1100px;
-  height: 61vh;
+  min-height: 61vh;
   margin: 0 auto;
   font-family: sofial;
+  margin-bottom: 30px;
 }
 
 .content h3 {

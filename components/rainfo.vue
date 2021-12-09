@@ -47,14 +47,15 @@
 .faq {text-align: center;}
 
 .info {
-  width: 1100px;
+  max-width: 1100px;
   font: lighter;
-  height: 450px;
+  max-height: 450px;
   font-family: sofial !important;
   text-align: left;
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .accord { justify-content: end;}
