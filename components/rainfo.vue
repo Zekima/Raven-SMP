@@ -6,13 +6,13 @@
         <p>A private server allows you to experience Minecraft in the way it was intended. In a public server who knows if your house will still be there the next day.  </p>
       </div>
       <div class="rinfo">
-        <nuxt-picture src="../static/assets/ogs.webp" class="center" alt="" style="margin-top:20px;">
+        <img src="../static/assets/ogs.webp" class="center" alt="" style="margin-top:20px;">
       </div>
     </div>
     <hr>
     <div class="info">
       <div class="rinfo">
-        <nuxt-picture src="../static/assets/rulesfi.webp" class="center" alt="">
+        <img src="../static/assets/rulesfi.webp" class="center" alt="">
       </div>
         <div class="linfo extra">
         <h1>Server Rules & Restrictions</h1><br>
@@ -32,7 +32,7 @@
     <div class="faq"><br>
       <h1>FAQ</h1>
       <div class="faq">
-        <nuxt-picture src="../static/assets/faq.webp" alt="">
+        <img src="../static/assets/faq.webp" alt="">
       </div>
   </div>
   </div>
