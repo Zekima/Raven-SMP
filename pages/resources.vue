@@ -4,7 +4,7 @@
     <div class="resources">
       <div class="rahero">
         <h1>Everything used in Raven SMP</h1>
-        <img src="../static/assets/work.webp" alt="" width="1200px" style="margin-top:40px">
+        <nuxt-picture src="../static/assets/work.webp" alt="" width="1200px" style="margin-top:40px">
       </div>
     </div>
     <div class="content">
@@ -13,7 +13,7 @@
         <div class="wrap">
         <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/vt.png" width="64px">
+            <nuxt-img src="../static/assets/vt.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -23,7 +23,7 @@
         </div>
                 <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/blaze.png" width="64px">
+            <nuxt-img src="../static/assets/blaze.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -33,7 +33,7 @@
         </div>
                 <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/rand.png" width="64px">
+            <nuxt-img src="../static/assets/rand.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -43,7 +43,7 @@
         </div>
                 <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/zomb.png" width="64px">
+            <nuxt-img src="../static/assets/zomb.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -60,7 +60,7 @@
         <div class="wrap">
         <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/leaderboard.png" width="64px">
+            <nuxt-img src="../static/assets/leaderboard.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -70,7 +70,7 @@
         </div>
                 <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/ri.png" width="64px">
+            <nuxt-img src="../static/assets/ri.png" width="64px">
           </div>
           <div class="ctext">
 
@@ -80,7 +80,7 @@
         </div>
                         <div class="ccard">
           <div class="cimg">
-            <img src="../static/assets/ch.jpg" width="64px">
+            <nuxt-img src="../static/assets/ch.jpg" width="64px">
           </div>
           <div class="ctext">
 
