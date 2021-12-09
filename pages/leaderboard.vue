@@ -102,7 +102,7 @@
     },
     async fetch() {
       this.stats = await fetch(
-        'http://localhost:4000/api/chirps'
+        'https://ravenexpress.herokuapp.com/api/chirps'
       ).then(res => res.json())
     },
     computed: {
