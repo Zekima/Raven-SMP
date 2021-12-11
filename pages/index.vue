@@ -49,12 +49,16 @@ import axios from 'axios'
 
 export default {
   generate: {
-    routes() {
-      return axios.get(`https://ravenexpress.herokuapp.com/api/chirps/`).then(res => {
-        return res.data.map(user => {
-          return '/players/' + user.name
+    routes(callback) {
+      axios
+        .get('https://ravenexpress.herokuapp.com/api/chirps')
+        .then(res => {
+          const routes = res.data.map(user => {
+            return '/players/' + user.name
+          })
+          callback(null, routes)
         })
-      })
+        .catch(callback)
     }
   }
 }
