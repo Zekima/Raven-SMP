@@ -1,7 +1,7 @@
 <template>
   <div>
     <rmenu></rmenu>
-    <iframe src="http://23.158.176.136:25567/" class="ifra" frameBorder="0"></iframe>
+    <iframe src="https://map.ravensmp.net/" class="ifra" frameBorder="0"></iframe>
     <br><br>
     <rfooter></rfooter>
   </div>
