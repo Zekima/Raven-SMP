@@ -24,9 +24,17 @@
 }
 
 .players h2{
-  font-family: sofial;
+  font-family: mc;
   text-align: center;
   color: white;
+  width: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.178);
+
 }
 
 div.statbg {
@@ -34,9 +42,10 @@ div.statbg {
   height: 40px;
   background-image: url(/assets/statbg.webp);
   font-family: mc;
-  font-size: 19px;
+  font-size: 20px;
   color: white;
   float: left;
+  font-weight: lighter;
   display: flex;
   margin-top: 5px;
 }
@@ -44,13 +53,13 @@ div.statbg {
 .statbg h4 {
   color: #fcfc00;
   margin-left: 9px;
-  padding-top: 10px;
+  padding-top: 9px;
 
 }
 
 .statbg p {
   margin-left: 6px;
-  padding-top: 10px;
+  padding-top: 9px;
 }
 
 </style>

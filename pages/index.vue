@@ -45,21 +45,8 @@
 </template>
 
 <script>
-import axios from 'axios'
+
 
 export default {
-  generate: {
-    routes(callback) {
-      axios
-        .get('https://ravenexpress.herokuapp.com/api/chirps')
-        .then(res => {
-          const routes = res.data.map(user => {
-            return '/players/' + user.name
-          })
-          callback(null, routes)
-        })
-        .catch(callback)
-    }
-  }
 }
 </script>
