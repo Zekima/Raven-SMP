@@ -5,6 +5,10 @@
     <div class="players">
       <h2>{{stats.name}}</h2>
       <canvas id="skin_container" class="center"></canvas>
+      <div class="statbg"><h4>Advancements:</h4><p>{{stats.points}}</p></div>
+      <div class="statbg"><h4>Time Played:</h4><p>{{stats.time}} h</p></div>
+      <div class="statbg"><h4>Deaths:</h4><p>{{stats.deaths}}</p></div>
+      <div class="statbg"><h4>Kills:</h4><p>{{stats.kills}}</p></div>
     </div>
     </div>
     <rfooter></rfooter>
@@ -14,12 +18,39 @@
 
 .players {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .players h2{
   font-family: sofial;
   text-align: center;
   color: white;
+}
+
+div.statbg {
+  width: 208px;
+  height: 40px;
+  background-image: url(/assets/statbg.webp);
+  font-family: mc;
+  font-size: 19px;
+  color: white;
+  float: left;
+  display: flex;
+  margin-top: 5px;
+}
+
+.statbg h4 {
+  color: #fcfc00;
+  margin-left: 9px;
+  padding-top: 10px;
+
+}
+
+.statbg p {
+  margin-left: 6px;
+  padding-top: 10px;
 }
 
 </style>
