@@ -1,7 +1,7 @@
 <template>
   <div>
     <rmenu></rmenu>
-    <iframe src="https://map.massivecraft.com/" class="ifra" frameBorder="0"></iframe>
+    <iframe src="http://23.158.176.136:25567/" class="ifra" frameBorder="0"></iframe>
     <br><br>
     <rfooter></rfooter>
   </div>
