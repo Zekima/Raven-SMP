@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     font-family: sofiam;
     src: url(../fonts/sofiam.otf);
@@ -110,7 +115,7 @@ body {
     cursor: pointer;
     background-color: white;
     color: black;
-    font-family: sofial;
+    font-family: sofiam;
 }
 
 .hero {

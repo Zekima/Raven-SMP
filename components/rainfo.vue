@@ -3,7 +3,9 @@
     <div class="info" id="1">
       <div class="linfo extra">
         <h1>What is a private server?</h1><br>
-        <p>A private server allows you to experience Minecraft in the way it was intended. In a public server who knows if your house will still be there the next day.  </p>
+        <p>A private server allows you to experience Minecraft in the way it was intended. In a public server who knows if your house will still be there the next day.
+          <br><br>Raven SMP is a community consisting of people from all over the world comming together to play the game that we love, Minecraft.
+        </p>
       </div>
       <div class="rinfo">
         <img src="../static/assets/ogs.webp" class="center" alt="" style="margin-top:20px;">
@@ -27,11 +29,11 @@
       </div>
     </div>
         <div class="info">
-      <div class="linfo">
-        <h1>FAQ</h1>
-        <img src="../static/assets/faq.webp" class="center faq" alt="">
 
-      </div>
+    </div>
+    <div class="join">
+      <h1>Ready to join our community?</h1>
+      <a href="apply"><button class="app">Applications</button></a>
     </div>
 
 
@@ -78,6 +80,8 @@
 
 .info p {
   font-size: 18px;
+  color: #1a1a1a;
+  font-family: sofial;
   }
 
   .v-expansion-panel--active:not(:first-child), .v-expansion-panel--active + .v-expansion-panel {
@@ -93,6 +97,33 @@
 
 }
 
+.join {
+  width: 100%;
+  background-color: black;
+  color: white;
+  float: left;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sofial;
+  height: 200px;
+}
+
+.join button {
+
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 9px;
+    margin-top: 10px;
+    border: 0;
+    width: 175px;
+    cursor: pointer;
+    background-color: white !important;
+    color: black;
+    font-family: sofiam;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -104,7 +135,9 @@ hr{background-color: #ccc;
         border: none; height: 1px;}
 
   .extra {
+    padding: 50px;
     padding-top: 100px;
+    box-sizing: border-box;
   }
 
 
