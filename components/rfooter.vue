@@ -20,6 +20,7 @@
   align-items: center;
   background-color: #2a0f57;
   position: relative;
+  z-index: 10;
 }
 
 .fcontent {

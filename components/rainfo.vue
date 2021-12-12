@@ -28,12 +28,13 @@
         </ul>
       </div>
     </div>
-        <div class="info">
 
-    </div>
+
     <div class="join">
       <h1>Ready to join our community?</h1>
       <a href="apply"><button class="app">Applications</button></a>
+      <img src="../static/assets/faq.webp" alt="" class="faq">
+
     </div>
 
 
@@ -45,7 +46,7 @@
 <style>
 
 
-.faq {text-align: center;width: 90px !important; float: left;}
+.faq {text-align: center;width: 90px !important; position: absolute; bottom: -90px;right: 57%; z-index: 5;transform: rotate(-20deg)}
 
 .info {
   max-width: 1100px;
@@ -56,9 +57,6 @@
   margin-bottom: 50px;
 }
 
-.extra {
-
-}
 
 .accord { justify-content: end;}
 
@@ -100,6 +98,7 @@
 .join {
   width: 100%;
   background-color: black;
+  position: relative;
   color: white;
   float: left;
   text-align: center;
@@ -115,7 +114,7 @@
     padding: 9px;
     font-size: 18px;
     border-radius: 9px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 0;
     width: 175px;
     cursor: pointer;
